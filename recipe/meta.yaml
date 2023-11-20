@@ -1,5 +1,5 @@
 {% set name = "arm-test-data" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/arm-test-data-{{ version }}.tar.gz
-  sha256: f07a13317106a4ff8c6ae21190a8614e2ad3e83da00f6524020bb08f4df1e06a
+  sha256: afc0ef63bacd9aab044ab8891b45d7496ea00013c721b34f7220846bbe8daebc
 
 build:
   noarch: python
